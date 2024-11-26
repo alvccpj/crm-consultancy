@@ -11,4 +11,6 @@ import lombok.Data;
 public class Especialidade {
         @Id
         private String nome;
+
+        private String descricao;
 }
